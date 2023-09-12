@@ -2,13 +2,16 @@ import { Link } from "react-router-dom";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import { LiaTimesSolid } from "react-icons/lia";
 import { useState } from "react";
+import logo from "../assets/logo.png"
 
 const Navbar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
   return (
     <div className="container mx-auto p-4">
       <div className="flex justify-between items-center text-gray-500 font-semibold">
-        <p>Cubre</p>
+        <span className="flex justify-center items-center">
+          <img src={logo} alt="logo" className="w-14" />
+          ExcoCylce</span>
         <div>
           <ul className="hidden md:flex items-center gap-10">
             <li>
