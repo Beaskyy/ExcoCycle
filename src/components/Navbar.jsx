@@ -9,21 +9,21 @@ const Navbar = () => {
   return (
     <div className="container mx-auto p-4">
       <div className="flex justify-between items-center text-gray-500 font-semibold">
-        <span className="flex justify-center items-center">
+        <Link to='/' className="flex justify-center items-center">
           <img src={logo} alt="logo" className="w-14" />
-          ExcoCylce</span>
+          ExcoCylce</Link>
         <div>
           <ul className="hidden md:flex items-center gap-10">
-            <li>
+            <li className="hover:text-[#367E02]">
               <Link to="/">News</Link>
             </li>
-            <li>
+            <li className="hover:text-[#367E02]">
               <Link to="/">About</Link>
             </li>
-            <li>
+            <li className="hover:text-[#367E02]">
               <Link to="/">Science Policy</Link>
             </li>
-            <li>
+            <li className="hover:text-[#367E02]">
               <Link to="/">Activity</Link>
             </li>
           </ul>
