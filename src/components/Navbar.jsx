@@ -19,7 +19,7 @@ const Navbar = () => {
   }, []);
   return (
     <div className="fixed w-full p-4 bg-white z-20" id="nav">
-      <div className="flex justify-between items-center text-gray-500 font-semibold">
+      <div className="flex justify-between items-center text-gray-500 font-semibold md:mx-6">
         <Link to="/" className="flex justify-center items-center">
           <img src={logo} alt="logo" className="w-14" />
           ExcoCylce
@@ -30,7 +30,7 @@ const Navbar = () => {
               <Link to="/">News</Link>
             </li>
             <li className="hover:text-primary">
-              <Link to="/">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li className="hover:text-primary">
               <Link to="/">Science Policy</Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
               <Link to="/">News</Link>
             </li>
             <li>
-              <Link to="/">About</Link>
+              <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/">Science Policy</Link>
