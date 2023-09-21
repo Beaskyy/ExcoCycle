@@ -1,6 +1,11 @@
+import { useEffect } from "react";
 import { wasteSolutions } from "../data";
 
 const Solutions = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="py-6">
       <div className="container mx-auto p-4 mt-20">
@@ -14,7 +19,6 @@ const Solutions = () => {
         <div className="md:w-full mx-auto mt-10">
           {wasteSolutions?.map((solution, index) => (
             <div key={index}>
-              {console.log(index % 2 === 0)}
               {index % 2 === 0 && (
                 <div
                   className={`flex justify-between gap-10 items-center md:flex-row flex-col mb-28`}
@@ -52,6 +56,7 @@ const Solutions = () => {
             </div>
           ))}
         </div>
+        <p className="w-full md:w-[600px]">In conclusion, Solving the problem of excessive waste generation requires a multifaceted approach involving individuals, businesses, governments, and organizations working together to reduce waste and promote sustainable practices.</p>
       </div>
     </section>
   );
