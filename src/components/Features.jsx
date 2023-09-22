@@ -53,7 +53,7 @@ const Features = () => {
                 missed opportunities for responsible waste management.
               </p>
               <Link
-                to="/recyling"
+                to="/recycling"
                 className="py-2 px-6 text-gray-500 border group-hover:border-none rounded-full group-hover:bg-slate-100"
               >
                 Solution
@@ -73,6 +73,12 @@ const Features = () => {
                 Limited access to educational resources and information on
                 climate change and sustainable living practices.
               </p>
+              <Link
+                to="/awareness"
+                className="py-2 px-6 text-gray-500 border group-hover:border-none rounded-full group-hover:bg-slate-100"
+              >
+                Solution
+              </Link>
             </div>
             <div className="card group hover:bg-slate-800 transition-all duration-300">
               <div className="flex items-center justify-between mb-4">
@@ -89,6 +95,12 @@ const Features = () => {
                 sustainability, making it difficult for individuals to connect,
                 share knowledge, and inspire one another.
               </p>
+              <Link
+                to="/community"
+                className="py-2 px-6 text-gray-500 border group-hover:border-none rounded-full group-hover:bg-slate-100"
+              >
+                Solution
+              </Link>
             </div>
           </div>
         </div>

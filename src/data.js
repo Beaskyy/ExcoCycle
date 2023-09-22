@@ -61,7 +61,7 @@ export const recyclingSolutions = [
   },
   {
     title: "Convenient Recycling Infrastructure",
-    description: `Increase the availability of recycling bins and containers in public spaces, businesses, schools, and residential areas. Ensure that recycling bins are easily accessible and conveniently located, making `,
+    description: `Increase the availability of recycling bins and containers in public spaces, businesses, schools, and residential areas. Ensure that recycling bins are easily accessible and conveniently located, making recycling as effortless as possible. `,
     image: epr,
   },
   {
@@ -91,8 +91,107 @@ export const recyclingSolutions = [
   {
     title: "Government Support",
     description: `Allocate funding and resources to support local recycling initiatives and infrastructure development.
-    Create tax incentives or rebates for businesses that use recycled materials in their products..
+    Create tax incentives or rebates for businesses that use recycled materials in their products.
     Explore innovative recycling technologies that make recycling more efficient and cost-effective.`,
+    image: government,
+  },
+];
+
+
+export const awarenessSolutions = [
+  {
+    title: "Comprehensive Education Programs",
+    description: `Develop and implement comprehensive educational programs at all levels of education, from elementary schools to universities, that incorporate climate change and sustainability into the curriculum.
+    Include topics such as the science of climate change, the impact on ecosystems and human societies, and practical solutions for sustainable living.`,
+    image: wasteReduction,
+  },
+  {
+    title: "Community Workshops and Events",
+    description: `Organize workshops, seminars, and community events focused on climate change and sustainability topics.
+    Invite experts, scientists, and activists to speak at these events and engage with the audience.`,
+    image: education,
+  },
+  {
+    title: "Online Resources",
+    description: `Create and maintain user-friendly websites, apps, and online platforms that offer a wealth of information, interactive tools, and resources related to climate change and sustainable living.
+    Provide resources in multiple languages to reach diverse communities.`,
+    image: epr,
+  },
+  {
+    title: "School and University Partnerships",
+    description: `Foster partnerships between educational institutions and local organizations or businesses to provide hands-on experiences and internships related to sustainability and climate change.`,
+    image: recycle,
+  },
+  {
+    title: "Government Initiatives",
+    description: `Develop policies that mandate or incentivize sustainability education in schools and universities.
+    Offer grants and funding to organizations working on climate education and awareness projects.`,
+    image: seperation,
+  },
+  {
+    title: "Media Engagement",
+    description: `Encourage media outlets to cover climate change and sustainability topics regularly.
+    Promote responsible journalism that presents accurate information and solutions.`,
+    image: partnership,
+  },
+  {
+    title: "Cultural and Religious Outreach",
+    description: `Collaborate with cultural and religious institutions to integrate sustainability teachings and practices into their communities.`,
+    image: technology,
+  },
+  {
+    title: "Role Models and Influencers",
+    description: `Partner with celebrities, influencers, and community leaders who are passionate about sustainability to amplify awareness messages.`,
+    image: government,
+  },
+];
+export const communitySolutions = [
+  {
+    title: "Community Building Initiatives",
+    description: `Organize community-building events and gatherings centered around sustainability, such as eco-fairs, neighborhood clean-ups, and sustainable living workshops.
+    Encourage local residents to participate in these events and connect with like-minded individuals.`,
+    image: wasteReduction,
+  },
+  {
+    title: "Online Sustainability Communities",
+    description: `Create online forums, social media groups, and websites dedicated to sustainability and eco-conscious living.
+    These platforms can serve as spaces for community members to share knowledge, exchange ideas, and support one another.`,
+    image: education,
+  },
+  {
+    title: "Community Gardens",
+    description: `Establish community gardens or urban farming initiatives where residents can come together to grow organic produce and learn about sustainable agriculture.
+    These projects can foster a sense of community while promoting sustainable practices.`,
+    image: epr,
+  },
+  {
+    title: "Collaborative Projects",
+    description: `Facilitate collaborative sustainability projects within the community, such as tree planting, renewable energy installations, or waste reduction initiatives.
+    Encourage residents to work together toward common sustainability goals.`,
+    image: recycle,
+  },
+  {
+    title: "Education and Workshops",
+    description: `Offer regular sustainability workshops, seminars, and educational programs within the community.
+    Invite experts to provide insights on sustainable practices, climate change, and conservation efforts.`,
+    image: seperation,
+  },
+  {
+    title: "Sustainability Challenges",
+    description: `Organize sustainability challenges or competitions that encourage residents to adopt eco-friendly habits and share their progress.
+    Recognize and reward participants for their contributions.`,
+    image: partnership,
+  },
+  {
+    title: "Neighborhood Associations",
+    description: `Encourage neighborhood associations to include sustainability initiatives and discussions in their activities.
+    These associations can facilitate communication and collaboration among residents.`,
+    image: technology,
+  },
+  {
+    title: "Regular Community Meetings",
+    description: `Host regular community meetings or forums to discuss sustainability goals, progress, and future plans.
+    Ensure that residents have a voice in shaping the community's sustainability agenda`,
     image: government,
   },
 ];
