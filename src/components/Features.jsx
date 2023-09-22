@@ -3,6 +3,7 @@ import { GiNuclearWaste } from "react-icons/gi";
 import { FaRecycle } from "react-icons/fa";
 import { HiMiniUserGroup } from "react-icons/hi2";
 import { Link } from "react-router-dom";
+
 const Features = () => {
   return (
     <section className="bg-slate-100 py-6">
@@ -47,10 +48,16 @@ const Features = () => {
                   />
                 </div>
               </div>
-              <p className="group-hover:text-gray-200">
+              <p className="group-hover:text-gray-200 mb-4">
                 Inadequate recycling participation among individuals, leading to
                 missed opportunities for responsible waste management.
               </p>
+              <Link
+                to="/recycling"
+                className="py-2 px-6 text-gray-500 border group-hover:border-none rounded-full group-hover:bg-slate-100"
+              >
+                Solution
+              </Link>
             </div>
             <div className="card group hover:bg-slate-800 transition-all duration-300">
               <div className="flex items-center justify-between mb-4">
@@ -62,10 +69,16 @@ const Features = () => {
                   />
                 </div>
               </div>
-              <p className="group-hover:text-gray-200">
+              <p className="group-hover:text-gray-200 mb-4">
                 Limited access to educational resources and information on
                 climate change and sustainable living practices.
               </p>
+              <Link
+                to="/awareness"
+                className="py-2 px-6 text-gray-500 border group-hover:border-none rounded-full group-hover:bg-slate-100"
+              >
+                Solution
+              </Link>
             </div>
             <div className="card group hover:bg-slate-800 transition-all duration-300">
               <div className="flex items-center justify-between mb-4">
@@ -77,11 +90,17 @@ const Features = () => {
                   />
                 </div>
               </div>
-              <p className="group-hover:text-gray-200">
+              <p className="group-hover:text-gray-200 mb-4">
                 A lack of a cohesive and engaged community focused on
                 sustainability, making it difficult for individuals to connect,
                 share knowledge, and inspire one another.
               </p>
+              <Link
+                to="/community"
+                className="py-2 px-6 text-gray-500 border group-hover:border-none rounded-full group-hover:bg-slate-100"
+              >
+                Solution
+              </Link>
             </div>
           </div>
         </div>
