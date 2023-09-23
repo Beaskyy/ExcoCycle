@@ -9,6 +9,12 @@ import education from "./assets/education.png";
 import partnership from "./assets/partnership.png";
 import technology from "./assets/technology.png";
 import government from "./assets/government.png";
+import recycleBin from "./assets/recycle-bin.jpg"
+import workshop from "./assets/workshop.jpg"
+import onlineResources from "./assets/online-resources.png"
+import school from "./assets/school.jpg"
+import media from "./assets/media.jpg"
+import influencers from "./assets/influencers.png"
 
 export const wasteSolutions = [
   {
@@ -62,7 +68,7 @@ export const recyclingSolutions = [
   {
     title: "Convenient Recycling Infrastructure",
     description: `Increase the availability of recycling bins and containers in public spaces, businesses, schools, and residential areas. Ensure that recycling bins are easily accessible and conveniently located, making recycling as effortless as possible. `,
-    image: epr,
+    image: recycleBin,
   },
   {
     title: "Incentives and Rewards",
@@ -109,30 +115,30 @@ export const awarenessSolutions = [
     title: "Community Workshops and Events",
     description: `Organize workshops, seminars, and community events focused on climate change and sustainability topics.
     Invite experts, scientists, and activists to speak at these events and engage with the audience.`,
-    image: education,
+    image: workshop,
   },
   {
     title: "Online Resources",
     description: `Create and maintain user-friendly websites, apps, and online platforms that offer a wealth of information, interactive tools, and resources related to climate change and sustainable living.
     Provide resources in multiple languages to reach diverse communities.`,
-    image: epr,
+    image: onlineResources,
   },
   {
     title: "School and University Partnerships",
     description: `Foster partnerships between educational institutions and local organizations or businesses to provide hands-on experiences and internships related to sustainability and climate change.`,
-    image: recycle,
+    image: school,
   },
   {
     title: "Government Initiatives",
     description: `Develop policies that mandate or incentivize sustainability education in schools and universities.
     Offer grants and funding to organizations working on climate education and awareness projects.`,
-    image: seperation,
+    image: government,
   },
   {
     title: "Media Engagement",
     description: `Encourage media outlets to cover climate change and sustainability topics regularly.
     Promote responsible journalism that presents accurate information and solutions.`,
-    image: partnership,
+    image: media,
   },
   {
     title: "Cultural and Religious Outreach",
@@ -142,7 +148,7 @@ export const awarenessSolutions = [
   {
     title: "Role Models and Influencers",
     description: `Partner with celebrities, influencers, and community leaders who are passionate about sustainability to amplify awareness messages.`,
-    image: government,
+    image: influencers,
   },
 ];
 export const communitySolutions = [

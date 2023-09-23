@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { recyclingSolutions } from "../data";
+import { awarenessSolutions } from "../data";
 import Navbar from "./Navbar";
 
 const Awareness = () => {
@@ -12,7 +12,7 @@ const Awareness = () => {
       <Navbar />
       <section className="py-6">
         <div className="container mx-auto p-4 mt-20">
-          <h2 className="mb-4">Solutions to lack of awareness</h2>
+          <h2 className="mb-4">Solutions</h2>
           <p className="w-full md:w-3/5">
             The solution to the lack of awareness regarding climate change and
             sustainable living practices involves a concerted effort to provide
@@ -20,7 +20,7 @@ const Awareness = () => {
             culture of environmental consciousness. Here are some key solutions:
           </p>
           <div className="md:w-full mx-auto mt-10">
-            {recyclingSolutions?.map((solution, index) => (
+            {awarenessSolutions?.map((solution, index) => (
               <div key={index}>
                 {index % 2 === 0 && (
                   <div
