@@ -18,7 +18,7 @@ const Navbar = () => {
     });
   }, []);
   return (
-    <div className="fixed w-full p-4 bg-white z-20" id="nav">
+    <div className="fixed w-full px-4 py-2 bg-white z-20" id="nav">
       <div className="flex justify-between items-center text-gray-500 font-semibold md:mx-6">
         <Link to="/" className="flex justify-center items-center">
           <img src={logo} alt="logo" className="w-14" />

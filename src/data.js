@@ -9,6 +9,18 @@ import education from "./assets/education.png";
 import partnership from "./assets/partnership.png";
 import technology from "./assets/technology.png";
 import government from "./assets/government.png";
+import recycleBin from "./assets/recycle-bin.jpg"
+import workshop from "./assets/workshop.jpg"
+import onlineResources from "./assets/online-resources.png"
+import school from "./assets/school.jpg"
+import media from "./assets/media.jpg"
+import influencers from "./assets/influencers.png"
+import gardens from "./assets/park.jpg"
+import communityBuilding from "./assets/community-building.jpg"
+import projects from "./assets/projects.jpg"
+import sustainability from "./assets/sustainability.jpg"
+import association from "./assets/association.jpg"
+import meeting from "./assets/meeting.jpg"
 
 export const wasteSolutions = [
   {
@@ -62,7 +74,7 @@ export const recyclingSolutions = [
   {
     title: "Convenient Recycling Infrastructure",
     description: `Increase the availability of recycling bins and containers in public spaces, businesses, schools, and residential areas. Ensure that recycling bins are easily accessible and conveniently located, making recycling as effortless as possible. `,
-    image: epr,
+    image: recycleBin,
   },
   {
     title: "Incentives and Rewards",
@@ -109,30 +121,30 @@ export const awarenessSolutions = [
     title: "Community Workshops and Events",
     description: `Organize workshops, seminars, and community events focused on climate change and sustainability topics.
     Invite experts, scientists, and activists to speak at these events and engage with the audience.`,
-    image: education,
+    image: workshop,
   },
   {
     title: "Online Resources",
     description: `Create and maintain user-friendly websites, apps, and online platforms that offer a wealth of information, interactive tools, and resources related to climate change and sustainable living.
     Provide resources in multiple languages to reach diverse communities.`,
-    image: epr,
+    image: onlineResources,
   },
   {
     title: "School and University Partnerships",
     description: `Foster partnerships between educational institutions and local organizations or businesses to provide hands-on experiences and internships related to sustainability and climate change.`,
-    image: recycle,
+    image: school,
   },
   {
     title: "Government Initiatives",
     description: `Develop policies that mandate or incentivize sustainability education in schools and universities.
     Offer grants and funding to organizations working on climate education and awareness projects.`,
-    image: seperation,
+    image: government,
   },
   {
     title: "Media Engagement",
     description: `Encourage media outlets to cover climate change and sustainability topics regularly.
     Promote responsible journalism that presents accurate information and solutions.`,
-    image: partnership,
+    image: media,
   },
   {
     title: "Cultural and Religious Outreach",
@@ -142,7 +154,7 @@ export const awarenessSolutions = [
   {
     title: "Role Models and Influencers",
     description: `Partner with celebrities, influencers, and community leaders who are passionate about sustainability to amplify awareness messages.`,
-    image: government,
+    image: influencers,
   },
 ];
 export const communitySolutions = [
@@ -150,48 +162,48 @@ export const communitySolutions = [
     title: "Community Building Initiatives",
     description: `Organize community-building events and gatherings centered around sustainability, such as eco-fairs, neighborhood clean-ups, and sustainable living workshops.
     Encourage local residents to participate in these events and connect with like-minded individuals.`,
-    image: wasteReduction,
+    image: communityBuilding,
   },
   {
     title: "Online Sustainability Communities",
     description: `Create online forums, social media groups, and websites dedicated to sustainability and eco-conscious living.
     These platforms can serve as spaces for community members to share knowledge, exchange ideas, and support one another.`,
-    image: education,
+    image: onlineResources,
   },
   {
     title: "Community Gardens",
     description: `Establish community gardens or urban farming initiatives where residents can come together to grow organic produce and learn about sustainable agriculture.
     These projects can foster a sense of community while promoting sustainable practices.`,
-    image: epr,
+    image: gardens,
   },
   {
     title: "Collaborative Projects",
     description: `Facilitate collaborative sustainability projects within the community, such as tree planting, renewable energy installations, or waste reduction initiatives.
     Encourage residents to work together toward common sustainability goals.`,
-    image: recycle,
+    image: projects,
   },
   {
     title: "Education and Workshops",
     description: `Offer regular sustainability workshops, seminars, and educational programs within the community.
     Invite experts to provide insights on sustainable practices, climate change, and conservation efforts.`,
-    image: seperation,
+    image: workshop,
   },
   {
     title: "Sustainability Challenges",
     description: `Organize sustainability challenges or competitions that encourage residents to adopt eco-friendly habits and share their progress.
     Recognize and reward participants for their contributions.`,
-    image: partnership,
+    image: sustainability,
   },
   {
     title: "Neighborhood Associations",
     description: `Encourage neighborhood associations to include sustainability initiatives and discussions in their activities.
     These associations can facilitate communication and collaboration among residents.`,
-    image: technology,
+    image: association,
   },
   {
     title: "Regular Community Meetings",
     description: `Host regular community meetings or forums to discuss sustainability goals, progress, and future plans.
     Ensure that residents have a voice in shaping the community's sustainability agenda`,
-    image: government,
+    image: meeting,
   },
 ];
