@@ -15,6 +15,12 @@ import onlineResources from "./assets/online-resources.png"
 import school from "./assets/school.jpg"
 import media from "./assets/media.jpg"
 import influencers from "./assets/influencers.png"
+import gardens from "./assets/park.jpg"
+import communityBuilding from "./assets/community-building.jpg"
+import projects from "./assets/projects.jpg"
+import sustainability from "./assets/sustainability.jpg"
+import association from "./assets/association.jpg"
+import meeting from "./assets/meeting.jpg"
 
 export const wasteSolutions = [
   {
@@ -156,48 +162,48 @@ export const communitySolutions = [
     title: "Community Building Initiatives",
     description: `Organize community-building events and gatherings centered around sustainability, such as eco-fairs, neighborhood clean-ups, and sustainable living workshops.
     Encourage local residents to participate in these events and connect with like-minded individuals.`,
-    image: wasteReduction,
+    image: communityBuilding,
   },
   {
     title: "Online Sustainability Communities",
     description: `Create online forums, social media groups, and websites dedicated to sustainability and eco-conscious living.
     These platforms can serve as spaces for community members to share knowledge, exchange ideas, and support one another.`,
-    image: education,
+    image: onlineResources,
   },
   {
     title: "Community Gardens",
     description: `Establish community gardens or urban farming initiatives where residents can come together to grow organic produce and learn about sustainable agriculture.
     These projects can foster a sense of community while promoting sustainable practices.`,
-    image: epr,
+    image: gardens,
   },
   {
     title: "Collaborative Projects",
     description: `Facilitate collaborative sustainability projects within the community, such as tree planting, renewable energy installations, or waste reduction initiatives.
     Encourage residents to work together toward common sustainability goals.`,
-    image: recycle,
+    image: projects,
   },
   {
     title: "Education and Workshops",
     description: `Offer regular sustainability workshops, seminars, and educational programs within the community.
     Invite experts to provide insights on sustainable practices, climate change, and conservation efforts.`,
-    image: seperation,
+    image: workshop,
   },
   {
     title: "Sustainability Challenges",
     description: `Organize sustainability challenges or competitions that encourage residents to adopt eco-friendly habits and share their progress.
     Recognize and reward participants for their contributions.`,
-    image: partnership,
+    image: sustainability,
   },
   {
     title: "Neighborhood Associations",
     description: `Encourage neighborhood associations to include sustainability initiatives and discussions in their activities.
     These associations can facilitate communication and collaboration among residents.`,
-    image: technology,
+    image: association,
   },
   {
     title: "Regular Community Meetings",
     description: `Host regular community meetings or forums to discuss sustainability goals, progress, and future plans.
     Ensure that residents have a voice in shaping the community's sustainability agenda`,
-    image: government,
+    image: meeting,
   },
 ];
